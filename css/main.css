@@ -37,7 +37,7 @@ img{
 .header{
   padding: 50px 0;
   font-weight: 800; 
-  font-size: 29px;
+  font-size: 30px;
 }
 
 header nav{
@@ -112,14 +112,16 @@ header nav ul li:not(.btn) a:hover{
 }
 
 .hero--info h5{
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .hero--info h1{
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 75px;
   text-transform: uppercase;
 }
 
@@ -145,7 +147,7 @@ header nav ul li:not(.btn) a:hover{
 /* Кубик */
 .hero .cube{
   position: absolute;
-  top: 300px;
+  top: 320px;
   left: 950px;
   width: 350px;
 }
@@ -153,17 +155,49 @@ header nav ul li:not(.btn) a:hover{
 /* БЛОК С ТЕКСТОМ */
 .container-content {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 220px 0; 
 }
 
 .container-content h3 {
+  font-family: "Poppins", sans-serif;
   white-space: nowrap;
   font-weight: 800;
   font-size: 50px;
-  margin: 0;
-  padding: 300px 0;
+  margin: 0 0 2px 0; 
+  margin-bottom: 0;
 }
+
+.container-content h4 {
+  font-weight: 600;
+  margin: 0;        
+  padding: 0;       
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-list{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.about_block_title{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: -120px;
+}
+
+.about_block_list{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
 
 /*планшеты и маленькие ноутбуки */
 @media (max-width: 1200px) {

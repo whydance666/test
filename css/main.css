@@ -143,9 +143,8 @@ header nav ul li:not(.btn) a:hover{
 }
 
 .wiki:hover {
-  transform: scale(1.05);
   background:#0A0ACF ;
-  
+  transform: scale(1.05);
 }
 
 /*отступ между кнопками (ссылки кнопки)*/

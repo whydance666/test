@@ -138,12 +138,14 @@ header nav ul li:not(.btn) a:hover{
   border-radius: 60px;
 }
 
-.btnmain_2 {
+.wiki {
   border-radius: 60px;
 }
 
-.btnmain_2:hover {
+.wiki:hover {
+  transform: scale(1.05);
   background:#0A0ACF ;
+  
 }
 
 /*отступ между кнопками (ссылки кнопки)*/
